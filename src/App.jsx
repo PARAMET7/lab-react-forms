@@ -9,7 +9,7 @@ import AddStudent from "./components/AddStudent";
 function App() {
   const [students, setStudents] = useState(studentsData);
 
-  // Function to handle adding a new student
+  // Function to handle adding a new student!!!
   const handleAddStudent = (newStudent) => {
     setStudents([...students, newStudent]); // Add new student to the students array!!!
   };

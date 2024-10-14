@@ -49,7 +49,7 @@ function AddStudent({ handleAddStudent }) {
             type="text"
             placeholder="Full Name"
             value={fullName}
-            onChange={(e) => setFullName(e.target.value)}  
+            onChange={(e) => setFullName(e.target.value)}
           />
         </label>
 
@@ -119,8 +119,8 @@ function AddStudent({ handleAddStudent }) {
           <input
             name="graduated"
             type="checkbox"
-            checked={graduated}  {/* Using 'checked' for checkbox */}
-            onChange={(e) => setGraduated(e.target.checked)}  {/* Handling checkbox change */}
+            checked={graduated}
+            onChange={(e) => setGraduated(e.target.checked)}
           />
         </label>
 
